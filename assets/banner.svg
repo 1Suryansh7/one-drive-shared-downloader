@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">OneDrive Shared Downloader</title>
+  <desc id="desc">A dark blue banner with a cloud flowing into a folder. Shared in the cloud. Saved on your terms.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0a1028"/><stop offset="1" stop-color="#18244b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#70f0ed"/><stop offset="1" stop-color="#6f8bff"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop stop-color="#4466ed" stop-opacity=".34"/><stop offset="1" stop-color="#4466ed" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#91a9ed" stroke-opacity=".065"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="400" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="400" rx="26" fill="url(#grid)"/>
+  <circle cx="980" cy="155" r="265" fill="url(#glow)"/>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <rect x="56" y="43" width="293" height="31" rx="15.5" fill="#203454" stroke="#6ce6e5" stroke-opacity=".35"/>
+    <circle cx="74" cy="59" r="4" fill="#70f0ed"/>
+    <text x="88" y="64" font-size="11" font-weight="700" letter-spacing="1.6" fill="#bbf8f4">ONE DRIVE / SHARED DOWNLOADER</text>
+    <text x="56" y="151" font-size="53" font-weight="750" letter-spacing="-1.6" fill="#f5f8ff">Shared in the cloud.</text>
+    <text x="56" y="216" font-size="53" font-weight="750" letter-spacing="-1.6" fill="url(#accent)">Saved on your terms.</text>
+    <text x="59" y="263" font-size="18" fill="#b6c5e9">Share link in. Folder tree out. A little Python does the rest.</text>
+    <g font-size="11" font-weight="650" letter-spacing="1.2" fill="#c6d7f8">
+      <circle cx="62" cy="335" r="3" fill="#70f0ed"/><text x="75" y="339">STREAMED DOWNLOADS</text>
+      <circle cx="288" cy="335" r="3" fill="#859cff"/><text x="301" y="339">FOLDER STRUCTURE</text>
+      <circle cx="502" cy="335" r="3" fill="#70f0ed"/><text x="515" y="339">PUBLIC LINKS, NO SIGN-IN</text>
+    </g>
+  </g>
+  <g transform="translate(820 72)">
+    <rect x="-13" y="-5" width="302" height="269" rx="24" fill="#142346" stroke="#90b0ff" stroke-opacity=".23"/>
+    <path d="M71 109h134c25 0 41-16 41-36 0-23-18-40-41-40-6 0-12 1-17 4C179 14 160 0 137 0 107 0 82 21 78 49c-4-1-8-2-12-2-19 0-34 14-34 32s16 30 39 30Z" transform="translate(0 23)" fill="url(#accent)"/>
+    <path d="M138 105v65m-21-21 21 21 21-21" fill="none" stroke="#d7f9ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M61 191a10 10 0 0 1 10-10h48l15 15h68a10 10 0 0 1 10 10v34H61Z" fill="#708eff"/>
+    <path d="M60 208h153l-12 39H70Z" fill="#9db5ff"/>
+    <circle cx="244" cy="236" r="19" fill="#70f0ed"/>
+    <path d="m236 236 6 6 10-12" fill="none" stroke="#142346" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

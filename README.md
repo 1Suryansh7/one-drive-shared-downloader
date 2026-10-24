@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/1Suryansh7/one-drive-shared-downloader/actions/workflows/tests.yml"><img src="https://github.com/1Suryansh7/one-drive-shared-downloader/actions/workflows/tests.yml/badge.svg" alt="Tests"></a>
+  <a href="https://github.com/1Suryansh7/one-drive-shared-downloader/actions/workflows/tests.yml"><img src="https://github.com/1Suryansh7/one-drive-shared-downloader/actions/workflows/tests.yml/badge.svg?branch=main" alt="Tests"></a>
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10 and newer">
   <img src="https://img.shields.io/badge/Async-asyncio-6C63FF" alt="Powered by asyncio">
   <img src="https://img.shields.io/badge/Dependencies-just_HTTPX-0891B2" alt="One direct dependency: HTTPX">
@@ -71,7 +71,7 @@ creating the environment.
 > **Upgrading from the original project?** Use a fresh environment. Its old
 > HTTPX / Trio dependencies are incompatible with modern Python.
 
-## 🛠️ Usage
+## 🛠 Usage
 
 The examples below assume your virtual environment is active. Alternatively,
 replace `python` with the virtual environment's Python executable shown above.

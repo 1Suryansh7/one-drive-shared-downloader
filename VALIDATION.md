@@ -35,6 +35,9 @@ sessions, signed URL selection, Graph authentication, redirect credentials,
 selective previews, HTTP failures, truncated/interrupted streams, unexpected
 pagination hosts, unsafe paths, concurrency limits, and async usage.
 
+The [first GitHub Actions run](https://github.com/1Suryansh7/one-drive-shared-downloader/actions/runs/40078175410)
+also passed all four jobs: Windows and Ubuntu, each with Python 3.10 and 3.13.
+
 ## Practical limits
 
 Only the public personal OneDrive route was verified against the live service.
